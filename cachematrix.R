@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
     {
         return(x)
     }  
-    # set the matrix inverse of x
+    # set the matrix inverse of x in containing env
     setinverse <- function(inverse) 
     {
         m <<- inverse
